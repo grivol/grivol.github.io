@@ -329,14 +329,14 @@
       text-decoration: none;
     }
     
-    /* Publications section */
-    .publication-list {
+    /* Research section */
+    .research-list {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
     }
     
-    .publication-card {
+    .research-card {
       background-color: var(--card-bg);
       border-radius: 10px;
       padding: 1.5rem;
@@ -344,23 +344,23 @@
       transition: var(--transition);
     }
     
-    .publication-card:hover {
+    .research-card:hover {
       transform: translateY(-5px);
       box-shadow: 0 8px 15px rgba(0,0,0,0.1);
     }
     
-    .publication-title {
+    .research-title {
       font-size: 1.2rem;
       margin-bottom: 0.5rem;
       color: var(--primary-dark);
     }
     
-    .publication-authors {
+    .research-authors {
       margin-bottom: 0.5rem;
       color: var(--text-secondary);
     }
     
-    .publication-links {
+    .research-links {
       display: flex;
       gap: 0.75rem;
       margin-top: 1rem;
@@ -487,10 +487,10 @@
             <a href="#talks" class="nav-link">Talks</a>
           </li>
           <li class="nav-item">
-            <a href="#publications" class="nav-link">Publications</a>
+            <a href="#research" class="nav-link">Research</a>
           </li>
           <li class="nav-item">
-            <a href="#student-activities" class="nav-link">Student Activities</a>
+            <a href="#featured-research" class="nav-link">Affiliated Student Clubs</a>
           </li>
         </ul>
         <div class="search-icon">
@@ -513,7 +513,7 @@
             We study a broad range of research topics such as the tensions between decentralization and centralization, the tradeoffs in Layer 2 scaling solutions, and decentralized autonomous organizations. Our theoretical perspectives include platform competition, platform governance, platform policy, game theory, and mechanism design.
           </p>
           <p class="hero-description">
-            We regularly attend academic and practitioner's conferences. If you are interested in chatting, please feel free to reach out. We closely collaborate with related research groups across NYU, such as the faculty group <a href="https://cs.nyu.edu/crg/">NYU Cryptography group at Courant</a>, and students group such as the <a href="https://nyubnf.com/">NYU Stern Blockchain & Fintech</a> and the Student Club ("Blockchain Lab") organized by Ayesha Kiani.
+            We regularly attend academic and practitioner's conferences. If you are interested in chatting, please feel free to reach out. We closely collaborate with related research groups across NYU, such as the faculty group <a href="https://cs.nyu.edu/crg/">NYU Cryptography group at Courant</a>, and students group such as the <a href="https://nyubnf.com/">NYU Stern Blockchain & Fintech</a> and the <a href="https://www.nyublockchainlab.xyz/partners">Student Club ("Blockchain Lab")</a> organized by Ayesha Kiani.
           </p>
         </div>
         <div class="hero-image">
@@ -672,19 +672,15 @@
   <!-- Featured Research Section -->
   <section id="featured-research" class="section">
     <div class="container">
-      <h2 class="section-title">Student Activities</h2>
+      <h2 class="section-title">Affiliated Student Clubs</h2>
       <div class="featured-container" style="display: flex; gap: 2rem; flex-wrap: wrap;">
         <!-- First Featured Box -->
         <div class="featured-box" style="flex: 1; min-width: 300px; background-color: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; transition: all 0.3s ease;">
           <div class="featured-content" style="padding: 2rem;">
             <h3 style="font-size: 1.5rem; color: var(--primary-dark); margin-bottom: 1rem;"><a href="https://nyubnf.com">NYU Stern Blockchain & Fintech</a></h3>
             <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
-              NYU Blockchain & Fintech is a student organization focused on the bringing opportunities to stundents through connection with sectors through speaker, recruiting, and networking events. 
+              NYU Stern Blockchain & Fintech is a student organization focused on the bringing opportunities to stundents through connection with sectors through speaker, recruiting, and networking events. 
             </p>
-            <div class="featured-image-container" style="height: 200px; background-color: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: 8px; margin-bottom: 1rem;">
-              <img src="/api/placeholder/400/200" alt="Logos1" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-            </div>
-            <a href="#" class="talk-link" style="display: inline-block; margin-top: 1rem;">Learn More</a>
           </div>
         </div>
         
@@ -693,12 +689,11 @@
           <div class="featured-content" style="padding: 2rem;">
             <h3 style="font-size: 1.5rem; color: var(--primary-dark); margin-bottom: 1rem;"><a href="https://www.nyublockchainlab.xyz">NYU Blockchain Lab</a></h3>
             <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
-              NYU Blockchain Lab is a student organization aiming to bring Blockchain and Distributed Ledger Technology to New York University.
+              We collaborate with the Student Club NYU Blockchain Lab, which maintains partnerships with these industry organizations:
             </p>
             <div class="featured-image-container" style="height: 200px; background-color: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: 8px; margin-bottom: 1rem;">
-              <img src="/api/placeholder/400/200" alt="Logos2" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+              <img src="Logos2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
             </div>
-            <a href="#" class="talk-link" style="display: inline-block; margin-top: 1rem;">Learn More</a>
           </div>
         </div>
       </div>
@@ -771,48 +766,48 @@
         </div>
         
         <!-- See more link -->
-        <a href="#" class="see-all-link">See all talks <i class="fas fa-angle-right"></i></a>
+        <a href="#" class="see-all-link">See more talks from NYU Blockchain Lab <i class="fas fa-angle-right"></i></a>
       </div>
     </div>
   </section>
 
-  <!-- Publications Section -->
-  <section id="publications" class="section">
+  <!-- Research Section -->
+  <section id="research" class="section">
     <div class="container">
-      <h2 class="section-title">Publications</h2>
-      <div class="publication-list">
+      <h2 class="section-title">Research</h2>
+      <div class="research-list">
         <!-- Publication 1 -->
-        <div class="publication-card">
-          <h3 class="publication-title">"Parallel Execution Fee Mechanisms"</h3>
-          <p class="publication-authors">Abdoulaye Ndiaye (2024)</p>
-          <div class="publication-links">
+        <div class="research-card">
+          <h3 class="research-title">"Parallel Execution Fee Mechanisms"</h3>
+          <p class="research-authors">Abdoulaye Ndiaye (2024)</p>
+          <div class="research-links">
             <a href="https://doi.org/https://doi.org/10.1287/mnsc.2023.02426" class="talk-link" target="_blank">DOI</a>
             <a href="https://abdouecon.github.io/research/papers/Relative_Pricing.pdf" class="talk-link" target="_blank">PDF</a>
           </div>
         </div>
         
         <!-- Publication 2 -->
-        <div class="publication-card">
-          <h3 class="publication-title">"Zero Cost" Majority Attacks on Permissionless Proof of Work Blockchains</h3>
-          <p class="publication-authors">Joshua S. Gans, Hanna Halaburda (2024)</p>
-          <div class="publication-links">
+        <div class="research-card">
+          <h3 class="research-title">"Zero Cost" Majority Attacks on Permissionless Proof of Work Blockchains</h3>
+          <p class="research-authors">Joshua S. Gans, Hanna Halaburda (2024)</p>
+          <div class="research-links">
             <a href="https://doi.org/https://doi.org/10.1287/mnsc.2023.02426" class="talk-link" target="_blank">DOI</a>
             <a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2023.02426" class="talk-link" target="_blank">Link</a>
           </div>
         </div>
         
         <!-- Publication 3 -->
-        <div class="publication-card">
-          <h3 class="publication-title">Beyond Bitcoin Economics of Digital Currencies and Blockchain Technologies</h3>
-          <p class="publication-authors">Hanna Halaburda, Miklos Sarvary, Guillaume Haeringer (2024)</p>
-          <div class="publication-links">
+        <div class="research-card">
+          <h3 class="research-title">Beyond Bitcoin Economics of Digital Currencies and Blockchain Technologies</h3>
+          <p class="research-authors">Hanna Halaburda, Miklos Sarvary, Guillaume Haeringer (2024)</p>
+          <div class="research-links">
             <a href="https://doi.org/https://doi.org/10.1145/3442371" class="talk-link" target="_blank">DOI</a>
             <a href="https://link.springer.com/book/10.1007/978-3-030-88931-9" class="talk-link" target="_blank">Link</a>
           </div>
         </div>
         
         <!-- See more link -->
-        <a href="#" class="see-all-link">See all publications <i class="fas fa-angle-right"></i></a>
+        <a href="#" class="see-all-link">See more research from NYU Blockchain Lab<i class="fas fa-angle-right"></i></a>
       </div>
     </div>
   </section>
@@ -860,7 +855,7 @@
         
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
-          window.scrollTo({
+          window.scrollTo({F
             top: targetElement.offsetTop - 80,
             behavior: 'smooth'
           });
